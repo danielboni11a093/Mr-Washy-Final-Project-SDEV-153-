@@ -1,0 +1,106 @@
+* { box-sizing: border-box;}
+
+body{
+    background-color: black;
+    color: #ffffff;
+    font-family: Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+header a{text-decoration: none;}
+header a:link{color: #FFFFFF;}
+header a:visited{color: #FFFFFF;}
+header a:hover{color: #7d0003;}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 0;
+    margin: 1em;
+}
+nav a{text-decoration: none;}
+nav a:link{color: #FFFFFF;}
+nav a:visited{color: #FFFFFF;}
+nav a:hover{color: #7d0003;}
+
+
+
+main{
+    padding: 20em 0 2em 10em;
+    font-size: large;
+
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: left;
+}
+
+
+section{
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer{
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
+
+.images{
+    display: block;
+    margin:auto;
+}
+#wrapper{
+    margin: auto;
+}
+#quote{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+#interiorimg{
+    background-image: url(carimages/interior.webp);
+    background-size: 100% auto ;
+  
+}
+#background_img{
+    background-image: url(carimages/reddark.avif);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+  
+img {
+    max-width: 700px;
+    max-height:auto;
+    float: left;
+}
+  
+.text {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    float: left;
+}
+
+#aboutus{
+    font-size: 1em;
+    text-align: center;
+}
